@@ -1,0 +1,11 @@
+1-To delete a local test branch
+=>git branch -d test
+
+2-To delete a local div branch
+=>git branch -d div
+
+3-To delete a remote div branch
+=>git push origin :div
+
+4-To delete a remote test branch
+=>git push origin :test
