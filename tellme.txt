@@ -9,3 +9,11 @@
 
 4-To delete a remote test branch
 =>git push origin :test
+
+5-list tags.
+=> git tag
+
+6-delete tag locally and remotely
+=>git push origin :refs/tags/v1.7  :remotely
+=>git tag -d v1.7
+
